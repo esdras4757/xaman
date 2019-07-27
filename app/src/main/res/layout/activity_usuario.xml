@@ -23,7 +23,7 @@
             android:layout_width="110sp"
             android:layout_height="110sp"
             android:layout_marginBottom="70sp"
-            android:src="@drawable/logo"
+            android:src="@drawable/copas"
             android:contentDescription="@string/tofo" />
 
         <Button

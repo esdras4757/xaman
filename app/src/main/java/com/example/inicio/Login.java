@@ -23,7 +23,7 @@ public class Login extends AppCompatActivity {
     public void iniciarsesionButton (View view){
 
         if(usuario.getText().toString().equals("user")&&contraseña.getText().toString().equals("user")){
-            Toast.makeText(this,"Inisiando sesion...",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Iniciando sesion...",Toast.LENGTH_SHORT).show();
         }
         else {
             Toast.makeText(this,"Usuario o contraseña incorrectos",Toast.LENGTH_SHORT).show();
