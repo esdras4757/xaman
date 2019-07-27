@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/screen2"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/todo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200sp"
+            android:layout_height="100sp"
+            android:src="@drawable/bien"
+            android:layout_marginBottom="50sp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_usuario"
+            android:hint="@string/ingresar_usuario"
+            android:layout_marginBottom="15sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:background="@drawable/input"
+            android:paddingLeft="20sp"
+            android:paddingRight="10sp"
+            android:paddingTop="10sp"
+            android:paddingBottom="10sp"
+            android:textColorHint="#ccc"
+             />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_contraseña"
+            android:hint="@string/contraseña"
+            android:layout_marginBottom="10sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:background="@drawable/input"
+            android:paddingLeft="20sp"
+            android:paddingRight="10sp"
+            android:paddingTop="10sp"
+            android:paddingBottom="10sp"
+            android:textColorHint="#ccc"
+            android:paddingStart="20sp"
+            android:paddingEnd="10sp" />
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

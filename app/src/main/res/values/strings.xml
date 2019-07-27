@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">INICIO</string>
+    <string name="iniciar_sesion">Iniciar sesion</string>
+    <string name="no_usuario">No Usuario</string>
+    <string name="todo">TODO</string>
+    <string name="tdo">TODO</string>
+    <string name="cliente">CLIENTE</string>
+    <string name="tofo">TODO</string>
+    <string name="ingresar_usuario">Ingresar usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="bebida1">BEBIDA 1</string>
+    <string name="bebida2">BEBIDA 2</string>
+    <string name="bebida3">BEBIDA 3</string>
+    <string name="bebida4">BEBIDA 4</string>
+    <string name="bebida5">BEBIDA 5</string>
+    <string name="bebida6">BEBIDA 6</string>
+</resources>

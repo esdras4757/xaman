@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".USUARIO">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/screen2"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="110sp"
+            android:layout_height="110sp"
+            android:layout_marginBottom="70sp"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/tofo" />
+
+        <Button
+            android:id="@+id/ir_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="30sp"
+            android:background="@drawable/botonred"
+            android:elevation="5sp"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:text="INICIAR SESION"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:id="@+id/ir_cliente"
+            android:layout_marginBottom="30sp"
+            android:background="@drawable/botonred"
+            android:elevation="5sp"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:text="@string/cliente"
+            android:textAllCaps="false"
+            />
+
+
+    </LinearLayout>
+
+    </RelativeLayout>
