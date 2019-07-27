@@ -14,4 +14,10 @@
     <string name="bebida4">BEBIDA 4</string>
     <string name="bebida5">BEBIDA 5</string>
     <string name="bebida6">BEBIDA 6</string>
+    <string name="MARGARITA">MARGARITA</string>
+    <string name="gintonic"><![CDATA[GIN & TONIC]]></string>
+    <string name="cosmopolitan">COSMOPOLITAN</string>
+    <string name="tequila">TEQUILA SUNRISE</string>
+    <string name="joey">JOEY´S DRINK</string>
+    <string name="alex">ALEXANDER</string>
 </resources>
