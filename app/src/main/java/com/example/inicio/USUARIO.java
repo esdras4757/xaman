@@ -27,4 +27,9 @@ public class USUARIO extends AppCompatActivity {
 
 
     }
+
+    public void botonmenu(View view){
+        Intent intent=new Intent(USUARIO.this,MenuBebidas.class);
+        startActivity(intent);
+    }
 }

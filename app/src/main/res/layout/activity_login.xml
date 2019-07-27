@@ -21,13 +21,13 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="400sp"
-            android:layout_height="220sp"
-            android:layout_marginBottom="55sp"
+            android:layout_width="374dp"
+            android:layout_height="217dp"
+            android:layout_marginBottom="30dp"
             android:gravity="center"
             android:text="BIENVENIDO A XAMAN BAR"
-            android:textColor="@color/colorPrimaryDark"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            android:textColor="@color/colorPrimaryDark" />
 
 
         <EditText

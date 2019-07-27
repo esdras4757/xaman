@@ -41,19 +41,19 @@
             />
 
         <Button
+            android:id="@+id/ir_cliente"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20sp"
             android:layout_marginRight="20sp"
-            android:id="@+id/ir_cliente"
             android:layout_marginBottom="30sp"
             android:background="@drawable/botonred"
             android:elevation="5sp"
-            android:textColor="#fff"
-            android:textSize="16sp"
+            android:onClick="botonmenu"
             android:text="@string/cliente"
             android:textAllCaps="false"
-            />
+            android:textColor="#fff"
+            android:textSize="16sp" />
 
 
     </LinearLayout>

@@ -9,7 +9,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@android:color/black"
-"
         android:scaleType="centerCrop"
         android:contentDescription="@string/todo" />
 
@@ -42,19 +41,19 @@
             />
 
         <Button
+            android:id="@+id/ir_cli"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20sp"
-            android:id="@+id/ir_cli"
-            android:background="@drawable/botonred"
             android:layout_marginRight="20sp"
-            android:textColor="#fff"
-            android:elevation="5sp"
             android:layout_marginBottom="30sp"
-            android:textSize="16sp"
+            android:background="@drawable/botonred"
+            android:elevation="5sp"
+            android:onClick="botonmenu"
             android:text="@string/cliente"
             android:textAllCaps="false"
-            />
+            android:textColor="#fff"
+            android:textSize="16sp" />
 
 
     </LinearLayout>
