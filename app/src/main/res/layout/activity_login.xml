@@ -9,7 +9,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/screen2"
+        android:background="@android:color/black"
         android:scaleType="centerCrop"
         android:contentDescription="@string/todo" />
 
@@ -19,38 +19,50 @@
         android:gravity="center"
         android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="400sp"
+            android:layout_height="220sp"
+            android:layout_marginBottom="55sp"
+            android:gravity="center"
+            android:text="BIENVENIDO A XAMAN BAR"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:id="@+id/et_usuario"
-            android:hint="@string/ingresar_usuario"
-            android:layout_marginBottom="15sp"
-            android:layout_marginLeft="20sp"
-            android:layout_marginRight="20sp"
-            android:background="@drawable/input"
-            android:paddingLeft="20sp"
-            android:paddingRight="10sp"
-            android:paddingTop="10sp"
-            android:paddingBottom="10sp"
-            android:textColorHint="#ccc"
-            android:paddingStart="20sp"
-            android:paddingEnd="10sp" />
-        <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/et_contraseña"
-            android:hint="@string/contraseña"
-            android:layout_marginBottom="10sp"
             android:layout_marginLeft="20sp"
             android:layout_marginRight="20sp"
+            android:layout_marginBottom="15sp"
             android:background="@drawable/input"
-            android:paddingLeft="20sp"
-            android:paddingRight="10sp"
-            android:paddingTop="10sp"
-            android:paddingBottom="10sp"
-            android:textColorHint="#ccc"
+            android:hint="@string/ingresar_usuario"
             android:paddingStart="20sp"
-            android:paddingEnd="10sp" />
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingEnd="10sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="10sp"
+            android:textColorHint="#ccc" />
+
+        <EditText
+            android:id="@+id/et_contraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="10sp"
+            android:background="@drawable/input"
+            android:hint="@string/contraseña"
+            android:paddingStart="20sp"
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingEnd="10sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="10sp"
+            android:textColorHint="#ccc" />
 
         <Button
             android:layout_width="match_parent"
@@ -64,11 +76,6 @@
             android:text="Iniciar sesion"
             android:textColor="#fff"
             android:textSize="16sp" />
-
-
-
-
-
 
 
     </LinearLayout>

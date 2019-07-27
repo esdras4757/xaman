@@ -3,6 +3,7 @@ package com.example.inicio;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -11,6 +12,7 @@ import android.widget.Toast;
 public class Login extends AppCompatActivity {
 
     TextView usuario,contraseña;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,4 +31,6 @@ public class Login extends AppCompatActivity {
             Toast.makeText(this,"Usuario o contraseña incorrectos",Toast.LENGTH_SHORT).show();
         }
     }
+
+
 }
