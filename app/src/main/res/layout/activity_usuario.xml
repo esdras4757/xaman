@@ -9,13 +9,14 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/screen2"
+        android:background="@drawable/fondo"
         android:scaleType="centerCrop"
-        />
+        android:src="@drawable/screen2" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/fondo"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -23,8 +24,8 @@
             android:layout_width="110sp"
             android:layout_height="110sp"
             android:layout_marginBottom="70sp"
-            android:src="@drawable/copas"
-            android:contentDescription="@string/tofo" />
+            android:contentDescription="@string/tofo"
+            android:src="@drawable/copas" />
 
         <Button
             android:id="@+id/ir_login"
@@ -35,10 +36,9 @@
             android:layout_marginBottom="30sp"
             android:background="@drawable/botonred"
             android:elevation="5sp"
-            android:textColor="#fff"
-            android:textSize="16sp"
             android:text="INICIAR SESION"
-            />
+            android:textColor="#fff"
+            android:textSize="16sp" />
 
         <Button
             android:id="@+id/ir_cliente"
