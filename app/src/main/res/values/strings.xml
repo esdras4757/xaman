@@ -20,4 +20,8 @@
     <string name="tequila">TEQUILA SUNRISE</string>
     <string name="joey">JOEY´S DRINK</string>
     <string name="alex">ALEXANDER</string>
+    <string name="pouse">POUSSE CAFÉ</string>
+    <string name="zombie">ZOMBIE</string>
+    <string name="rum"><![CDATA[RUM & COLA]]></string>
+    <string name="ies">IES PICK</string>
 </resources>
