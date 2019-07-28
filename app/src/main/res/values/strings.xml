@@ -24,4 +24,7 @@
     <string name="zombie">ZOMBIE</string>
     <string name="rum"><![CDATA[RUM & COLA]]></string>
     <string name="ies">IES PICK</string>
+    <string name="mixed">MIXED DRINKS</string>
+    <string name="shots">SHOTS</string>
+    <string name="elige_tu_bebida">ELIGE TU BEBIDA</string>
 </resources>

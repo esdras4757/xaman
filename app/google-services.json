@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "370079464648",
+    "firebase_url": "https://xaman-bar.firebaseio.com",
+    "project_id": "xaman-bar",
+    "storage_bucket": "xaman-bar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370079464648:android:cdd52b40a33c91ba",
+        "android_client_info": {
+          "package_name": "com.example.inicio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370079464648-kg9u7g3bhvh031aqadgco05bk2d4gksl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqyddi0Y6o8dSrEDw_xHS0UY6LnKj0Rcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370079464648-kg9u7g3bhvh031aqadgco05bk2d4gksl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
