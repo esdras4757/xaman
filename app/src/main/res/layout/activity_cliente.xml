@@ -21,11 +21,12 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
+        android:layout_width="365dp"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_alignTop="@id/CREA"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="150dp"
+        android:gravity="center"
         android:text="MIXED DRINKS"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="@color/White" />
@@ -115,7 +116,7 @@
         android:textSize="12sp" />
 
     <TextView
-        android:layout_width="141dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
