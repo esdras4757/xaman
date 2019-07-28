@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".MenuBebidas"></activity>
+        <activity android:name=".Progreso"></activity>
+        <activity android:name=".iniciarsesion" />
+        <activity android:name=".MenuBebidas" />
         <activity android:name=".cliente" />
         <activity android:name=".Login" />
         <activity android:name=".USUARIO" />
