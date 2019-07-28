@@ -43,6 +43,7 @@
         android:layout_marginRight="52dp"
         android:layout_marginBottom="457dp"
         android:background="@drawable/botonbeb"
+        android:onClick="progreso"
         android:text="@string/MARGARITA"
         android:textSize="12sp" />
 
@@ -58,6 +59,7 @@
         android:layout_marginTop="227dp"
         android:layout_marginBottom="457dp"
         android:background="@drawable/botonbeb"
+        android:onClick="progreso"
         android:text="@string/cosmopolitan"
         android:textSize="12sp" />
 
@@ -74,6 +76,7 @@
         android:layout_marginTop="73dp"
         android:layout_marginBottom="392dp"
         android:background="@drawable/botonbeb"
+        android:onClick="progreso"
         android:text="@string/tequila"
         android:textSize="12sp" />
 
@@ -87,6 +90,7 @@
         android:layout_marginEnd="52dp"
         android:layout_marginRight="52dp"
         android:background="@drawable/botonbeb"
+        android:onClick="progreso"
         android:text="@string/alex"
         android:textSize="12sp" />
 
@@ -100,6 +104,7 @@
         android:layout_marginLeft="51dp"
         android:layout_marginBottom="325dp"
         android:background="@drawable/botonbeb"
+        android:onClick="progreso"
         android:text="@string/pouse" />
 
     <Button
@@ -112,6 +117,7 @@
         android:layout_marginRight="53dp"
         android:layout_marginBottom="325dp"
         android:background="@drawable/botonbeb"
+        android:onClick="progreso"
         android:text="@string/zombie"
         android:textSize="12sp" />
 
@@ -136,6 +142,7 @@
         android:layout_marginLeft="52dp"
         android:layout_marginBottom="182dp"
         android:background="@drawable/botonbeb"
+        android:onClick="progreso"
         android:text="@string/gintonic"
         android:textSize="12sp" />
 
@@ -149,6 +156,7 @@
         android:layout_marginRight="56dp"
         android:layout_marginBottom="182dp"
         android:background="@drawable/botonbeb"
+        android:onClick="progreso"
         android:text="@string/joey"
         android:textSize="12sp" />
 
@@ -162,6 +170,7 @@
         android:layout_marginLeft="64dp"
         android:layout_marginBottom="109dp"
         android:background="@drawable/botonbeb"
+        android:onClick="progreso"
         android:text="@string/rum"
         android:textSize="12sp" />
 
@@ -175,6 +184,7 @@
         android:layout_marginRight="42dp"
         android:layout_marginBottom="109dp"
         android:background="@drawable/botonbeb"
+        android:onClick="progreso"
         android:text="@string/ies"
         android:textSize="12sp" />
 
