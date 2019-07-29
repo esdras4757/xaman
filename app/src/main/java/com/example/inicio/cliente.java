@@ -36,6 +36,47 @@ DatabaseReference child2=databaseReference.child("iniciar");
         startActivity(intent);
     }
 
+    public void tequilasunrise (View view){
+        child1.setValue("tequilasunrise");
+        Intent intent= new Intent(cliente.this,Progreso.class);
+        startActivity(intent);
+    }
+    public void alexander (View view){
+        child1.setValue("alexander");
+        Intent intent= new Intent(cliente.this,Progreso.class);
+        startActivity(intent);
+    }
+    public void pousecafe (View view){
+        child1.setValue("pousecafe");
+        Intent intent= new Intent(cliente.this,Progreso.class);
+        startActivity(intent);
+    }
+    public void zombie (View view){
+        child1.setValue("zombie");
+        Intent intent= new Intent(cliente.this,Progreso.class);
+        startActivity(intent);
+    }
+    public void ginytonic (View view){
+        child1.setValue("ginytonic");
+        Intent intent= new Intent(cliente.this,Progreso.class);
+        startActivity(intent);
+    }
+    public void joeysdrink (View view){
+        child1.setValue("joeysdrink");
+        Intent intent= new Intent(cliente.this,Progreso.class);
+        startActivity(intent);
+    }
+    public void rumycola (View view){
+        child1.setValue("rumycola");
+        Intent intent= new Intent(cliente.this,Progreso.class);
+        startActivity(intent);
+    }
+    public void iespick (View view){
+        child1.setValue("iespick");
+        Intent intent= new Intent(cliente.this,Progreso.class);
+        startActivity(intent);
+    }
+
 
 
 

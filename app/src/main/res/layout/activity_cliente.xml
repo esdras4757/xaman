@@ -60,10 +60,11 @@
         android:layout_width="123sp"
         android:layout_height="wrap_content"
         android:layout_alignTop="@id/bmargarita"
-        android:layout_marginTop="70dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="52dp"
+        android:layout_marginTop="70dp"
         android:background="@drawable/botonbeb"
+        android:onClick="tequilasunrise"
         android:text="@string/tequila"
         android:textSize="12sp" />
 
@@ -72,10 +73,11 @@
         android:layout_width="123sp"
         android:layout_height="wrap_content"
         android:layout_alignTop="@id/bmargarita"
-        android:layout_marginTop="70dp"
         android:layout_alignParentRight="true"
+        android:layout_marginTop="70dp"
         android:layout_marginRight="52dp"
         android:background="@drawable/botonbeb"
+        android:onClick="alexander"
         android:text="@string/alex"
         android:textSize="12sp" />
 
@@ -83,10 +85,11 @@
         android:layout_width="123sp"
         android:layout_height="wrap_content"
         android:layout_alignTop="@id/button2"
-        android:layout_marginTop="70dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="52dp"
+        android:layout_marginTop="70dp"
         android:background="@drawable/botonbeb"
+        android:onClick="pousecafe"
         android:text="@string/pouse" />
 
     <Button
@@ -94,10 +97,11 @@
         android:layout_width="123sp"
         android:layout_height="wrap_content"
         android:layout_alignTop="@id/alex"
-        android:layout_marginTop="70dp"
         android:layout_alignParentRight="true"
+        android:layout_marginTop="70dp"
         android:layout_marginRight="52dp"
         android:background="@drawable/botonbeb"
+        android:onClick="zombie"
         android:text="@string/zombie"
         android:textSize="12sp" />
 
@@ -118,11 +122,12 @@
         android:layout_width="123sp"
         android:layout_height="wrap_content"
 
-        android:layout_alignParentLeft="true"
         android:layout_alignTop="@+id/shots"
-        android:layout_marginTop="60dp"
+        android:layout_alignParentLeft="true"
         android:layout_marginLeft="52dp"
+        android:layout_marginTop="60dp"
         android:background="@drawable/botonbeb"
+        android:onClick="ginytonic"
         android:text="@string/gintonic"
         android:textSize="12sp" />
 
@@ -130,33 +135,36 @@
         android:id="@+id/joey"
         android:layout_width="123sp"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/shots"
+        android:layout_alignParentRight="true"
         android:layout_marginTop="60dp"
         android:layout_marginRight="52dp"
         android:background="@drawable/botonbeb"
+        android:onClick="joeysdrink"
         android:text="@string/joey"
         android:textSize="12sp" />
 
     <Button
         android:layout_width="123sp"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
         android:layout_alignTop="@+id/gin"
-        android:layout_marginTop="70dp"
+        android:layout_alignParentLeft="true"
         android:layout_marginLeft="52dp"
+        android:layout_marginTop="70dp"
         android:background="@drawable/botonbeb"
+        android:onClick="rumycola"
         android:text="@string/rum"
         android:textSize="12sp" />
 
     <Button
         android:layout_width="123sp"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/joey"
+        android:layout_alignParentRight="true"
         android:layout_marginTop="70dp"
         android:layout_marginRight="52dp"
         android:background="@drawable/botonbeb"
+        android:onClick="iespick"
         android:text="@string/ies"
         android:textSize="12sp" />
 
