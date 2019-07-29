@@ -24,7 +24,7 @@
         android:layout_height="20dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:background="@drawable/btnbebi"
+        android:background="@drawable/botonbeb"
         android:onClick="botonseleccionarbebida"
         android:text="Crear bebida" />
 </RelativeLayout>
