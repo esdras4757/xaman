@@ -8,6 +8,8 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
+import android.view.View;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -23,7 +25,8 @@ public class Progreso extends AppCompatActivity {
     DatabaseReference child3=databaseReference.child("porcentaje");
 
     ProgressBar pb1;
-    TextView porcentaje;
+    TextView porcentaje,creando;
+    ImageView iv1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,11 +34,13 @@ public class Progreso extends AppCompatActivity {
         setContentView(R.layout.activity_progreso);
         pb1=(ProgressBar) findViewById(R.id.progressBar);
         porcentaje=(TextView)findViewById(R.id.textViewporcentaje) ;
+        creando=(TextView)findViewById(R.id.textVcreando) ;
+        iv1=(ImageView)findViewById(R.id.IMAGENCHECK);
 
 
 
     }
-
+    int x=0;
     @Override
     protected void onStart() {
         super.onStart();
@@ -46,18 +51,41 @@ public class Progreso extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 String texto =dataSnapshot.getValue().toString();
                 porcentaje.setText(texto+"%");
+
                 if(texto.equals("100")){
-                    int duracion = 2000;
+                   x=1;
+                }
+
+                if(x==1){
+
+                    porcentaje.setVisibility(View.INVISIBLE);
+                    creando.setVisibility(View.INVISIBLE);
+                    pb1.setVisibility(View.INVISIBLE);
+                    iv1.setVisibility(View.VISIBLE);
+
+
+                    int duracion = 3000;
                     new Handler().postDelayed(new Runnable() {
 
                         public void run() {
-                            Intent intent = new Intent(Progreso.this, MenuBebidas.class);
+                            Intent intent = new Intent(Progreso.this, USUARIO.class);
+                            porcentaje.setVisibility(View.INVISIBLE);
+                            creando.setVisibility(View.INVISIBLE);
+                            pb1.setVisibility(View.INVISIBLE);
+                            iv1.setVisibility(View.VISIBLE);
+                            x=0;
                             startActivity(intent);
                             finish();
-
                         }
                     }, duracion);
 
+                }
+                else{
+
+                    porcentaje.setVisibility(View.VISIBLE);
+                    creando.setVisibility(View.VISIBLE);
+                    pb1.setVisibility(View.VISIBLE);
+                    iv1.setVisibility(View.INVISIBLE);
                 }
             }
 

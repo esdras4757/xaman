@@ -8,6 +8,7 @@
     tools:context=".Progreso">
 
     <ImageView
+        android:id="@+id/IMAGENCHECK"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
@@ -22,7 +23,7 @@
         android:progress="50" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textVcreando"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@id/progressBar"
