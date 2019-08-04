@@ -7,6 +7,22 @@
     android:background="@drawable/fondo"
     tools:context=".cliente" >
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -167,5 +183,6 @@
         android:onClick="iespick"
         android:text="@string/ies"
         android:textSize="12sp" />
+
 
 </RelativeLayout>
