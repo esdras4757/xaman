@@ -8,31 +8,24 @@
     tools:context=".cliente" >
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="4dp">
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" />
-    </ScrollView>
 
-    <TextView
+        <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="8dp"
-        android:gravity="center"
-        android:text="@string/elige_tu_bebida"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
-        android:textColor="@color/colorPrimaryDark" />
+            android:orientation="vertical">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="@string/elige_tu_bebida"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+                android:textColor="@color/colorPrimaryDark" />
 
     <TextView
         android:id="@+id/textView4"
@@ -45,18 +38,18 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="@color/White" />
 
-    <Button
-        android:id="@+id/bmargarita"
-        android:layout_width="123dp"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@id/textView4"
-        android:layout_marginTop="70dp"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="52dp"
-        android:background="@drawable/botonbeb"
-        android:onClick="margarita"
-        android:text="@string/MARGARITA"
-        android:textSize="12sp" />
+            <Button
+                android:id="@+id/bmargarita"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/textView4"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="70dp"
+                android:layout_marginRight="52dp"
+                android:background="@drawable/botonbeb"
+                android:onClick="margarita"
+                android:text="@string/MARGARITA"
+                android:textSize="12sp" />
 
     <Button
         android:layout_width="128dp"
@@ -183,6 +176,6 @@
         android:onClick="iespick"
         android:text="@string/ies"
         android:textSize="12sp" />
-
-
+        </RelativeLayout>
+    </ScrollView>
 </RelativeLayout>

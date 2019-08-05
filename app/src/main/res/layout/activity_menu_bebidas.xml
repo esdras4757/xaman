@@ -13,9 +13,11 @@
         android:layout_height="30dp"
         android:layout_centerVertical="true"
         android:layout_marginTop="1dp"
-        android:background="@drawable/botonbeb"
+        android:background="@drawable/btnbebi"
         android:onClick="botonseleccionarbebida"
-        android:text="Crear bebida" />
+        android:text="Crear bebida"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="16dp" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -27,8 +29,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="725dp"
+                android:layout_width="match_parent"
+                android:layout_height="1590dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
